@@ -20,4 +20,4 @@ collections:
       - { label: "Third Image", name: "image3", widget: "image" }
       - { label: "Fourth Image", name: "image4", widget: "image" }
       - { label: "Image Alt", name: "imageAlt", widget: "string" }
-      - { label: "Varients", name: "varients", widget: "list" }
+      - { label: "Variants", name: "variants", widget: "list" }

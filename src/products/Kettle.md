@@ -8,6 +8,7 @@ image1: /assets/banner.jpg
 image2: /assets/banner.jpg
 image3: /assets/banner.jpg
 image4: /assets/banner.jpg
+image5: /assets/banner.jpg
 imageAlt: Kettle
 variants:
   - type: "select"
