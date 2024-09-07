@@ -1,22 +1,7 @@
 ---
 price: 3999
-varients:
-  - Color
 layout: singleProduct.njk
 name: Oven
-variants:
-  - type: select
-    name: Size
-    options:
-      - Small
-      - Medium
-      - Large
-  - type: number
-    name: Quantity
-    min: 1
-    max: 10
-  - type: text
-    name: Custom Engraving
 category: home-and-appliances
 previousPrice: 4599
 tags: product
