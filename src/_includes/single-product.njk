@@ -1,0 +1,10 @@
+{%- for product in collections.product -%}
+<a href="{{ product.url }}" class="product-card">
+    
+    <img src="{{ product.data.image }}" alt="{{ product.data.imageAlt }}">
+    <h1>{{ product.data.name }}</h1>
+    <h2>{{ product.data.previousPrice }}</h2>
+    <p>{{ product.data.price }}</p>
+
+</a>
+{%- endfor -%}

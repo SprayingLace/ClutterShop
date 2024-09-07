@@ -1,0 +1,52 @@
+---
+layout: base.njk
+---
+
+<section class="product__body">
+    <div class="product__details">
+        <div class="path"><a href="/">Home</a><span>/</span>
+            <a href="/categories/{{category}}">{{ category }}</a><span>/</span><a href="/products/{{ name }}">{{ name }}</a>
+        </div>
+        <div class="details">
+            <div class="product__intro">
+                <div class="left">
+                    <div class="big">
+                        <div class="big-img-card">
+                        <img src="/assets/banner.jpg" alt="image">
+                        </div>
+                        <div class="small">
+                            <div class="img-card">
+                            <img src="/assets/banner.jpg" alt="image">
+                            </div>
+                            <div class="img-card">
+                            <img src="/assets/banner.jpg" alt="image">
+                            </div>
+                            <div class="img-card">
+                            <img src="/assets/banner.jpg" alt="image">
+                            </div>
+                            <div class="img-card">
+                            <img src="/assets/banner.jpg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proDetails">
+                        <h1>{{name}}</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos velit consequuntur doloribus deleniti.</p>
+                        <div class="reviews">
+                            <p><i class="fa-solid fa-star"></i><span id="rating">5</span>
+                            <a href="#reviews">Reviews<i class="fa-solid fa-chevron-down"></i></a>
+                            </p>
+                        </div>
+                        <div class="variants">
+                            {% include "variants.njk" %}
+
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
