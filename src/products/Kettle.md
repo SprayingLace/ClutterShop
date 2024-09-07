@@ -4,7 +4,10 @@ category: home-and-appliances
 price: 3999
 previousPrice: 4599
 tags: product
-image: /assets/banner.jpg
+image1: /assets/banner.jpg
+image2: /assets/banner.jpg
+image3: /assets/banner.jpg
+image4: /assets/banner.jpg
 imageAlt: Kettle
 variants:
   - type: "select"
