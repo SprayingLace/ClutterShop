@@ -19,5 +19,6 @@ collections:
       - { label: "Second Image", name: "image2", widget: "image" }
       - { label: "Third Image", name: "image3", widget: "image" }
       - { label: "Fourth Image", name: "image4", widget: "image" }
+      - { label: "Fifth Image", name: "image5", widget: "image" }
       - { label: "Image Alt", name: "imageAlt", widget: "string" }
       - { label: "Variants", name: "variants", widget: "list" }
