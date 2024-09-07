@@ -1,6 +1,5 @@
 ---
 price: 3999
-layout: singleProduct.njk
 name: Oven
 category: home-and-appliances
 previousPrice: 4599
