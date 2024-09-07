@@ -1,5 +1,4 @@
 module.exports = function(elentyConfig) {
-
     elentyConfig.addPassthroughCopy('./src/styles.css');
     elentyConfig.addPassthroughCopy('./src/assets');
 
